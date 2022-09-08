@@ -6,6 +6,8 @@
  */
 int main(void)
 {
-	printf("with proper grammar%c but the outcome is a piece of art%c\n", ',', ',');
+	char txt[] = "with proper grammar%c but the outcome is a piece of art%c\n";
+
+	printf(txt, ',', ',');
 	return (0);
 }
