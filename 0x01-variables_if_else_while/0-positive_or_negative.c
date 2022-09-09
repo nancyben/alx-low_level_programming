@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
 * main - Entry point
@@ -15,20 +16,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	char[] result = "";
-
 	if (n == 0)
-	{
-		result = "0"
-	}
+		printf("%d is %c", n, "0");
 	else if (n > 0)
-	{
-		result = "positive"
-	}
+		printf("%d is %c", n, "positive");
 	else
-	{
-		result = "negative"
-	}
-	printf("%d is %c", n, result);
+		printf("%d is %c", n, "negative");
+
 	return (0);
 }
