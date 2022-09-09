@@ -9,12 +9,12 @@
 */
 int main(void)
 {
-	int ch;
+	int rtc;
 
 
-	for (ch = 0; ch < 10; ch++)
+	for (rtc = 0; rtc < 10; rtc++)
 	{
-		putchar(ch + '0');
+		putchar(rtc + '0');
 	}
 
 	printf("\n");
