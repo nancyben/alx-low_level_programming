@@ -9,7 +9,7 @@ int main(void)
 {
 	int rtc;
 
-	for (rtc = 0; rtc <= 89; rtc++)
+	for (rtc = 1; rtc <= 89; rtc++)
 	{
 		putchar(rtc / 10 + '0');
 		putchar(rtc % 10 + '0');
