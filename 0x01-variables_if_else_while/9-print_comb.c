@@ -16,8 +16,8 @@ int main(void)
 	{
 		putchar(rtc + '0');
 		if (rtc < 9)
-			putchar(',')
-			putchar(' ')
+			putchar(',');
+			putchar(' ');
 	}
 
 	putchar('\n');
