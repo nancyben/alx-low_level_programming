@@ -9,12 +9,12 @@ int main(void)
 {
 	int rtc;
 
-	for (rtc = 0; rtc <= 99; rtc++)
+	for (rtc = 0; rtc <= 89; rtc++)
 	{
 		putchar(rtc / 10 + '0');
 		putchar(rtc % 10 + '0');
 
-		if (rtc < 99)
+		if (rtc < 89)
 		{
 			putchar(',');
 			putchar(' ');
