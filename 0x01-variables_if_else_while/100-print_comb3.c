@@ -15,12 +15,12 @@ int main(void)
 	{
 		first = rtc / 10;
 		last  = rtc % 10;
-                
+
 		if (first != last && last > first)
 		{
 			putchar(rtc / 10 + '0');
 			putchar(rtc % 10 + '0');
-			
+
 			if (rtc < 89)
 			{
 				putchar(',');
