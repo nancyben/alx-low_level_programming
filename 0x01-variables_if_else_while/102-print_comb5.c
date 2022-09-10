@@ -7,7 +7,6 @@
 */
 int main(void)
 {
-	int rtc;
 	int first;
 	int last;
 
