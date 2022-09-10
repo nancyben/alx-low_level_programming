@@ -45,7 +45,6 @@ int main(void)
 			secondCounter = secondCounter + 1;
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }
