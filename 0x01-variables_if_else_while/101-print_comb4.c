@@ -19,8 +19,8 @@ int main(void)
 		last  = rtc % 10;
 
 		if (
-				first != mid != last && first != last &&
-				first < mid && first < last && mid < last
+				(first != mid != last && first != last) &&
+				(first < mid && first < last && mid < last)
 		)
 		{
 			putchar(first + '0');
