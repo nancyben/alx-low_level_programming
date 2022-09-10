@@ -30,22 +30,22 @@ int main(void)
 		putchar(' ');
 		putchar(first + '0');
 		putchar(last + '0');
-		if (zeroCounter != countEnd - 1) 
+		if (zeroCounter != countEnd - 1)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		if (secondCounter >= countEnd) 
+		if (secondCounter >= countEnd)
 		{
 			zeroCounter = zeroCounter + 1;
 			secondCounter = zeroCounter + 1;
 		}
-	       	else 
+		else
 		{
 			secondCounter = secondCounter + 1;
 		}
-        }
-	
+	}
+
 	putchar('\n');
 	return (0);
 }
