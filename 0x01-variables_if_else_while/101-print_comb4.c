@@ -19,7 +19,7 @@ int main(void)
 		last  = rtc % 10;
 
 		if (
-				(first != mid != last && first != last) &&
+				(first != mid && first != last && first != last) &&
 				(first < mid && first < last && mid < last)
 		)
 		{
