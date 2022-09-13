@@ -1,4 +1,4 @@
-void print_alphabet(void);
+void _putchar(char);
 
 /**
  * print_alphabet - prints alphabets a - z
@@ -7,10 +7,14 @@ void print_alphabet(void);
  */
 void print_alphabet_x10(void)
 {
+	int outerLoop;
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (outerLoop = 0; outerLoop < 10; outerLoop++)
 	{
-		print_alphabet();
+		for (i = 0; i <= 26; i++)
+		{
+			_putchar(i < 26 ? 97 + i : '\n');
+		}
 	}
 }
