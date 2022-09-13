@@ -1,9 +1,9 @@
 void _putchar(char);
 
 /**
- * main - check the code
+ * print_alphabet - prints alphabets a - z
  *
- * Return: Always 0.
+ * Return: Always void.
  */
 void print_alphabet(void)
 {
