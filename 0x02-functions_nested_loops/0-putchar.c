@@ -1,6 +1,4 @@
-#ifndef MAIN_H
 #include "main.h"
-#endif
 
 /**
  * main - main program file
