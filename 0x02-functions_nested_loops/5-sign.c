@@ -3,7 +3,7 @@ void _putchar(char);
 /**
  * print_sign - checks if a character is lowecased or not
  *
- * @c: character to check
+ * @n: character to check
  *
  * Return: returns 0 if lowercased otherwise return 1
  */
