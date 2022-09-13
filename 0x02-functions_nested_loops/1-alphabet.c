@@ -1,6 +1,6 @@
 #include "main.h"
 
-void print_alphabet(void);
+void print_alphabet();
 
 /**
  * main - check the code
@@ -13,7 +13,7 @@ int main(void)
     return (0);
 }
 
-void print_alphabet(void)
+void print_alphabet()
 {
 	int i;
 
