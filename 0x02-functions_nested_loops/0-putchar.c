@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * main - main program file
  *
