@@ -1,7 +1,7 @@
 void _putchar(char);
 
 /**
- * print_alphabet - prints alphabets a - z
+ * print_alphabet_x10 - prints alphabets a - z
  *
  * Return: Always void.
  */
