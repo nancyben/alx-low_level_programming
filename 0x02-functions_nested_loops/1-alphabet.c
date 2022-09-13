@@ -11,9 +11,6 @@ void print_alphabet(void)
 
         for ( i = 0; i <= 26; i++)
         {
-		if (i < 26)
-			_putchar(97 + i);
-		else
-			_putchar('\n');
+		_putchar( i< 26 ? 97 + i: '\n');
         }
 }
