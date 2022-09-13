@@ -17,7 +17,7 @@ int print_last_digit(int c)
 	else
 		normalized = c;
 
-	lastDgt = c % 10;
+	lastDgt = normalized % 10;
 
 	_putchar(lastDgt);
 
