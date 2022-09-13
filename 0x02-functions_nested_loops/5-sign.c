@@ -7,10 +7,15 @@ void _putchar(char);
  *
  * Return: returns 0 if lowercased otherwise return 1
  */
-int print_sign(char c)
+int print_sign(int n)
 {
-	if (c >= 97)
+	if (n >= 1)
+		_putchar('+');
 		return (1);
-	else
+	else if (n == 0)
+		_putchar('0');
 		return (0);
+	else
+		_putchar('-');
+		return (-1)
 }
