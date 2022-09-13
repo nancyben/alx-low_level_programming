@@ -1,4 +1,4 @@
-#ifndef _MAIN_H
+#ifndef _putchar
 #include "main.h"
 #endif
 
