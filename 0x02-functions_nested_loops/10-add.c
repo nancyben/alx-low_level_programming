@@ -2,8 +2,10 @@
 
 /**
  * add - checks if a character is lowecased or not
- * @a - prop1
- * @b - prop2
+ * @a: prop1
+ * @b: prop2
+ *
+ * Adds two numbers
  *
  * Return: returns sum a + b
  */
