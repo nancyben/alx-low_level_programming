@@ -1,4 +1,3 @@
-void _putchar(char);
 /**
  * print_last_digit - checks if a character is lowecased or not
  *
