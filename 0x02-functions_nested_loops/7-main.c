@@ -9,7 +9,8 @@
 int main(void)
 {
     int r;
-    printf("1-02");
+
+    putchar('A');
     print_last_digit(98);
     print_last_digit(0);
     r = print_last_digit(-1024);

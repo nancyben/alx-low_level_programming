@@ -1,8 +1,3 @@
-#include <unistd.h>
-
-#ifndef _MAIN_H
-#define _MAIN_H
-
 /**
  * _putchar - writes the character c to stdout
  *
@@ -19,4 +14,3 @@ int _isalpha(char);
 int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
-#endif
