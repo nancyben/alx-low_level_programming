@@ -2,11 +2,12 @@
 
 /**
  * add - checks if a character is lowecased or not
+ * @a - prop1
+ * @b - prop2
  *
- *
- * Return: returns 0 if lowercased otherwise return 1
+ * Return: returns sum a + b
  */
 int add(int a, int b)
 {
 	return (a + b);
-}	
+}
