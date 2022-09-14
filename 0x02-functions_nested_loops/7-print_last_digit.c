@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_last_digit - checks if a character is lowecased or not
  *
