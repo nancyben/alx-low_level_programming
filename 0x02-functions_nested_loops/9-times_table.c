@@ -19,7 +19,7 @@ void times_table(void)
 			result = leftTimes * rightTimes;
 			if (result > 9)
 				_putchar((result / 10) + '0');
-			else
+			else if(rightTimes > 0)
 				_putchar(' ');
 			_putchar((result % 10) + '0');
 			if (rightTimes < 9)
