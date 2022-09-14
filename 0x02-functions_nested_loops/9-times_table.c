@@ -20,11 +20,11 @@ void times_table(void)
 			if (result > 9)
 				_putchar((result / 10) + '0');
 			_putchar((result % 10) + '0');
-			_putchar(' ');
 			if (rightTimes < 9)
 			{
 				_putchar(',');
 			}
+			_putchar(' ');
 
 		}
 		_putchar('\n');
