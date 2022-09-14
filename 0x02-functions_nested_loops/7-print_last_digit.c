@@ -17,7 +17,7 @@ int print_last_digit(int c)
 
 	lastDgt = normalized % 10;
 
-	_putchar(lastDgt + '0');
+	_putchar(lastDgt);
 
 	return (lastDgt);
 }
