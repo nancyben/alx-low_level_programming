@@ -1,3 +1,4 @@
+void _putchar(char);
 /**
  * print_last_digit - checks if a character is lowecased or not
  *
@@ -17,7 +18,7 @@ int print_last_digit(int c)
 
 	lastDgt = normalized % 10;
 
-	_putchar(lastDgt);
+	_putchar(lastDgt + '0');
 
 	return (lastDgt);
 }
