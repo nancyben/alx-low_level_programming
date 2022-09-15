@@ -1,20 +1,17 @@
+#include <stdio.h>
 #include "main.h"
 /**
-*print_numbers - This prints numbers 0 to 9
-*
-*Return: void
+*mul - This multiplies two integers.
+*@a: first input argument
+*@b: second input argument
+*Return: result
 */
 
-void print_numbers(void)
+int mul(int a, int b)
 {
-	int c;
+	int result;
 
-	c = 48;
+	result = a * b;
 
-	while (c < 58)
-	{
-		_putchar(c);
-		c++;
-	}
-	_putchar(10);
+	return (result);
 }
