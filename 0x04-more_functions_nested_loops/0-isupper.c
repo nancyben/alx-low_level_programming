@@ -4,7 +4,6 @@
 * _isupper - This function checks for upper case character
 *@c: Input argument
 *Return: 1 if uppercase, otherwise, 0
-*
 */
 
 int _isupper(int c)
