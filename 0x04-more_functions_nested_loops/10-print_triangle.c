@@ -2,6 +2,7 @@
 
 /**
  * print_triangle - generates pyramid kinda
+ * @n: number of pyramid
  *
  * Return: nothing.
  */
@@ -13,8 +14,7 @@ void print_triangle(int n)
 
 	count = 0;
 
-	do
-	{
+	do {
 		if (count == n)
 		{
 			_putchar('\n');
