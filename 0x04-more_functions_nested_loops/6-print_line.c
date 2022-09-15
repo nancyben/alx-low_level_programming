@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print_line - print_line
- * 
- * @n: n
- *
- * Return: nothing
- */
+* print_line - print_line
+*
+* @n: n
+*
+* Return: nothing
+*/
 void print_line(int n)
 {
-    int i;
+	int i;
 
-    for (i = 0; i < n; i++)
-    {
-        _putchar('_');
-    }
+	for (i = 0; i < n; i++)
+	{
+		_putchar('_');
+	}
 
-    _putchar('\n');
+	_putchar('\n');
 }
