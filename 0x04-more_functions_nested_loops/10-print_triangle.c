@@ -8,20 +8,12 @@
  */
 void print_triangle(int n)
 {
-	int d, j;
+	int i, d, j;
 	int spaces, blocks;
-	int count;
 
-	count = 0;
-
-	do {
-		if (count == n)
-		{
-			_putchar('\n');
-			break;
-		}
-
-		spaces = n - count - 1;
+	for (i = 0; i < n; i++)
+	{
+		spaces = n - i - 1;
 		blocks = n - spaces;
 
 		for (d = 0; d < spaces; d++)
@@ -35,8 +27,10 @@ void print_triangle(int n)
 		}
 
 		_putchar('\n');
+	}
 
-		count++;
-
-	} while (count < n);
+	if (i == 0)
+	{
+		_putchar('\n');
+	}
 }
