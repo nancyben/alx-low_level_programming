@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  *
  * _puts - _puts
@@ -8,5 +9,15 @@
  */
 void _puts(char *str)
 {
-	printf("%s", *str);
+	int l;
+
+        l = 0;
+
+        while (str[l] != '\0')
+        {
+		putchar(str[l]);
+		l++;
+        }
+
+	putchar('\n');
 }
