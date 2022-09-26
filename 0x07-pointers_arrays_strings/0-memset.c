@@ -1,5 +1,4 @@
 /**
- *
  *_memset - _memset
  *
  *@s: s
