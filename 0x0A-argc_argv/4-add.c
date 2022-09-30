@@ -10,16 +10,19 @@
  *
  * Return: int
  */
-int isNumber(char *n) {
+int isNumber(char *n)
+{
+	int i = strlen(n);
+	int isnum = i > 0;
 
-  int i = strlen(n);
-  int isnum = (i>0);
-  while (i-- && isnum) {
-    if (!(n[i] >= '0' && n[i] <= '9')) {
-      isnum = 0;
-    }
-  }
-  return isnum;
+	while (i-- && isnum)
+	{
+		if (!(n[i] >= '0' && n[i] <= '9'))
+		{
+			isnum = 0;
+		}
+	}
+	return (isnum);
 }
 
 /**
